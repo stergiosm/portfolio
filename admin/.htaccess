@@ -1,0 +1,6 @@
+<Limit GET POST PUT>
+	order deny,allow
+	deny from all
+	allow from 217.209.128.129
+	allow from ::1
+</Limit>
